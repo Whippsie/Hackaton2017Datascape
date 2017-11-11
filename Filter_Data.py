@@ -8,8 +8,8 @@ df = pd.DataFrame()
 
 ################ Reading data #################################################################################
 #read_csv from pandas will read the csv file into dataframe(which is table like format)
-df = pd.read_csv('vehicules-circulation-2016.csv')
-
+#REMOVE FOR ALL STATS
+df = pd.read_csv('vehicules-circulation-2016.csv',nrows=50)
 
 #number of records in dataset
 lenDf = len(df)
